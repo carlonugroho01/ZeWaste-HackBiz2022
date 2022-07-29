@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-brand img {
+    width: 125px;
+    margin-left: 20px;
+}
+
+.nav-link {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar-nav .active {
+    color: #9EC74F !important;
+}
+
+.navbar-nav .border-bottom {
+    border-bottom: 2px solid #9EC74F !important;
+}
+
+.nav-link:hover {
+    color: #9EC74F;
+}
+
+.navbar-toggler>.close {
+    display: inline;
+}
+
+.navbar-toggler.collapsed>.close,
+.navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+    display: none;
+}
+
+
+/* Sell */
+
+#sell p {
+    padding-top: 3.5px;
+    margin-bottom: 0px !important;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#sell .btn-secondary {
+    background-color: transparent;
+    width: 100%;
+}
+
+#sell .dropdown-menu {
+    width: 100%;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #000000;
+}
+
+.social-media-footer {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    text-align: left;
+    font-weight: 300;
+    margin-left: 3px;
+}
+
+.right {
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.left {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 15px;
+}

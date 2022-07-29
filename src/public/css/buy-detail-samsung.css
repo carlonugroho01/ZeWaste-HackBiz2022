@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #000000;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-brand img {
+    width: 125px;
+    margin-left: 20px;
+}
+
+.nav-link {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar-nav .active {
+    color: #9EC74F !important;
+}
+
+.navbar-nav .border-bottom {
+    border-bottom: 2px solid #9EC74F !important;
+}
+
+.nav-link:hover {
+    color: #9EC74F;
+}
+
+.navbar-toggler>.close {
+    display: inline;
+}
+
+.navbar-toggler.collapsed>.close,
+.navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+    display: none;
+}
+
+
+/* Card */
+
+#card h2 {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+#card h5 {
+    font-family: 'Inter', sans-serif;
+    color: #9EC74F;
+    text-align: left;
+    font-size: 20px;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 40px;
+    border: 0;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+#card p {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#card .btn-secondary {
+    background-color: transparent;
+    min-width: 100px;
+}
+
+#card img {
+    margin-left: 0px;
+}
+
+#card .checkout {
+    background-color: #9EC74F;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-weight: 800;
+    margin-right: 40px;
+}
